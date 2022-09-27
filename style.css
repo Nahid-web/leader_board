@@ -187,19 +187,30 @@ section {
 
 /* responsive for */
 @media(max-width: 620px) {
-    /* nav ,.navbar_right .div ,.navbar_right .div ul, .navbar_left .div , .navbar_left{
+    nav ,.navbar_right .div ,.navbar_right .div ul, .navbar_left .div , .navbar_left{
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding: 5px auto;
         padding-left: 0;
         
-    } */
+    }
     
     .player , .course , .blog {
         display: flex;
         flex-direction: column;
     }
+
+    .blog_box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .course_box img {
+        width: 200px;
+    }
+
+
 }
      
        
